@@ -1,0 +1,46 @@
+{
+  "name": "passport-qgame",
+  "version": "1.0.0",
+  "description": "Passport strategy for vivo qgame.",
+  "keywords": [
+    "passport",
+    "strategy",
+    "vivo",
+    "qgame"
+  ],
+  "author": {
+    "name": "Ling Ye",
+    "email": "i.foxling@gamil.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxling/passport-qgame.git"
+  },
+  "bugs": {
+    "url": "http://github.com/foxling/passport-qgame/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^4.1.1",
+    "md5": "^2.2.1",
+    "passport-strategy": "^1.0.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "1.x.x",
+    "mocha": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 6.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
